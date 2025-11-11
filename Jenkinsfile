@@ -5,7 +5,7 @@ pipeline{
     stage{
       steps
       {
-        
+        bash "echo hello"
       }
     }
   }
