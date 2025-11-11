@@ -1,0 +1,7 @@
+Endpoint,Method,Input,Output,Description
+/health,GET,None,Status JSON,Check API health
+/upload,POST,video file,File info,Upload video file
+/transcribe,POST,filepath,Transcript text + segments,Transcribe video audio
+/summarize,POST,"transcript, length",Summary + key concepts,Generate summary from transcript
+/generate-quiz,POST,"transcript, num_questions, difficulty",Quiz JSON,Generate quiz questions
+/process-all,POST,"video, all params",Complete results,End-to-end processing pipeline

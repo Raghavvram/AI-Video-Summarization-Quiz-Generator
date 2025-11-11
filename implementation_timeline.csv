@@ -1,0 +1,10 @@
+Phase,Duration,Tasks,Dependencies
+Phase 1: Setup,1-2 hours,"Environment setup, install dependencies, configure API keys",None
+Phase 2: Transcription,2-3 hours,Build audio extraction and Whisper integration,Phase 1
+Phase 3: Summarization,2-3 hours,Implement GPT-4 summarization with prompts,Phase 2
+Phase 4: Quiz Gen,3-4 hours,Build quiz generation with multiple question types,Phase 3
+Phase 5: Flask API,3-4 hours,Create all API endpoints and error handling,Phases 2-4
+Phase 6: Streamlit UI,4-5 hours,Build complete user interface with all features,Phase 5
+Phase 7: Testing,2-3 hours,"Test all features, fix bugs, optimize",Phase 6
+Phase 8: Documentation,1-2 hours,"Write README, API docs, user guide",Phase 7
+Phase 9: Deployment,2-4 hours,"Dockerize, deploy to cloud (optional)",Phase 8
